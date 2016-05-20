@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CommentsActivity">
+    tools:context="com.share.martin.Instashare.ui.activity.CommentsActivity">
 
     <include
         android:id="@+id/toolbar"
@@ -55,7 +55,7 @@
                 android:textColor="#555555"
                 android:textSize="14sp" />
 
-            <io.github.froger.instamaterial.ui.view.SendCommentButton
+            <com.share.martin.Instashare.ui.view.SendCommentButton
                 android:id="@+id/btnSendComment"
                 android:layout_width="72dp"
                 android:layout_height="match_parent"
